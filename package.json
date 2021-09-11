@@ -1,8 +1,12 @@
 {
   "name": "color-picker-ddz",
   "version": "0.1.0",
-  "private": true,
+  "description": "基于 Vue 的颜色选择器",
+  "main": "lib/vcolorpicker.umd.min.js",
+  "keyword": "vcolorpicker colorpicker color-picker",
+  "private": false,
   "scripts": {
+    "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
