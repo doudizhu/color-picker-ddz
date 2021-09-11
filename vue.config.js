@@ -24,6 +24,7 @@ module.exports = {
     // 修改路径别名
     config.resolve.alias
       .set('@', path.resolve(__dirname, './examples'))
-
-  }
+  },
+  // 关闭eslint
+  lintOnSave: false,
 }
